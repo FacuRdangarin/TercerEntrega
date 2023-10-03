@@ -1,0 +1,23 @@
+{% extends "AppEntrega/padre.html" %}
+{% load static %}
+
+{% block section1 %}
+
+<section id="scroll">
+    <div class="container px-5">
+        <div class="row gx-5 align-items-center">
+            <div class="col-lg-6 order-lg-2">
+                <div class="p-5"><img class="img-fluid rounded-circle" src="{% static 'AppEntrega/assets/img/01.jpg'%}" alt="..." /></div>
+            </div>
+            <div class="col-lg-6 order-lg-1">
+                <div class="p-5">
+                    <h2 class="display-4">Nuestro proposito</h2>
+                    <p>impulsamos el conocimiento y el aprendizaje didactico de manera especifica y neutral</p>
+                    <p>“Un buen maestro puede infundir esperanza, encender la imaginación e inculcar un amor por el aprendizaje.”</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock %}

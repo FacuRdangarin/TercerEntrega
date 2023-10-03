@@ -55,7 +55,7 @@ ROOT_URLCONF = 'tercer_entrega.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['./tercer_entrega/plantillas/'],
+        'DIRS': [],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
